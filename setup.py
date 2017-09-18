@@ -25,7 +25,6 @@ class BinaryDistribution(Distribution):
 CXXFLAGS = u"""
 -O3
 -msse4.2
--Wno-unused-value
 -Wno-unused-function
 """.split()
 
